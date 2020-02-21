@@ -64,4 +64,4 @@ server.post('/projects/:id/tasks', checkProjectId, (req, res) => {
   return res.json(projects);
 })
 
-server.listen(3000)
+server.listen(3000);
